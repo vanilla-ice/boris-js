@@ -13,7 +13,7 @@
     ".git*",
     ".travis*",
     "*bower.json",
-    "*jquery.json",
+    "*jquery.json"
   ],
   "dependencies": { "jquery": "latest" }
 }
