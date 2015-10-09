@@ -1,0 +1,19 @@
+{
+  "name": "boris-js",
+  "version": "1.0.0",
+  "main": [ "boris.js","./images/boris.jpg" ],
+  "ignore":
+  [
+    "README*",
+    "LICENSE*",
+    "packages",
+    "Cakefile*",
+    "Rakefile*",
+    "Gemfile*",
+    ".git*",
+    ".travis*",
+    "*bower.json",
+    "*jquery.json",
+  ],
+  "dependencies": { "jquery": "latest" }
+}
