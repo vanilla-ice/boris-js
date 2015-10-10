@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $.fn.boris = function() {
     var fadefunc, outfunc;
-    $('<div class="boris" style="z-index: 999; top: 0; transform: translateX(-100%); position:fixed;"><img src="images/boris.jpg"><br><span class="txt" style="font-size:27px;">Работаешь, петух?))</span></div>').appendTo('body');
+    $('<div class="boris" style="z-index: 999; top: 0; transform: translateX(-100%); position:fixed;"><img src="images/boris.jpg"><br><span class="txt" style="color: red; font-size:27px;">Работаешь, петух?))</span></div>').appendTo('body');
     outfunc = function() {
       return $('.boris').css({
         'transform': 'translateX(-100%)',
